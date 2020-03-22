@@ -1,0 +1,298 @@
+body
+{
+    margin:0;
+    background: linear-gradient(to  bottom, rgb(36, 162, 212),rgb(19, 180, 145),rgb(20, 201, 20));
+
+}
+.link
+{
+    background: linear-gradient(to  bottom, rgba(5, 161, 96, 0.466),rgba(56, 96, 143, 0.425));
+    margin:0px;
+    padding:30px;
+    position: fixed;
+    width:1400px;
+  
+}
+a:hover
+{
+    color:rgba(215, 238, 9, 0.322);
+    font-weight: bold;
+}
+a:active
+{
+    color:#f8d409;
+    text-decoration:underline;
+}
+.link0 , .link1 , .link2 , .link3 
+{
+    position:absolute;
+    font-size:30px;
+    text-decoration:none;
+    color: ivory;
+}
+.link0
+{  
+ top:5px;
+ right:115px;
+}
+.link1
+{ 
+ top:5px;
+ left:100px;
+}
+.link2
+{ 
+ top:5px;
+ left:400px;
+}
+.link3
+{ 
+ top:5px;
+ left:700px;
+}
+#image
+{
+    width:1348px;
+    height:800px;
+    border-radius:5px;
+}
+                                          /* style for imageI*/
+/*.imageI
+{
+    width:420px;
+    height:220px;
+    border-radius:10px;
+    margin: 10px;
+    display: inline;
+    cursor:pointer;
+}
+.imageI:hover
+{
+  opacity:0.5;
+}*/
+
+.paragraph
+{
+    font-family:fantasy;
+    font-size: 50px;
+    text-align:center;
+    margin:0px;
+    color:dimgrey;
+}
+                                  /* style for video in index.html*/
+.video
+{
+    margin: 0px 380px  ;
+    width:600px;
+    height:300px;
+}
+
+.imageparagraph
+{
+    margin: 0px;
+    background-image: url('../res/digitale.jpg');
+    width:1348px;
+    height: 800px;
+    font-size: 200px;
+    text-align: center;
+    color: rgba(252, 50, 0, 0.473);
+
+}
+                                    /*style for form name="register"*/ 
+input[type="button"] 
+{
+ 
+width:90px;
+height:30px;
+cursor: pointer;
+}
+input[name="bold"]
+{
+    width:100px;
+    margin:2px 2px 2px 450px;
+    cursor: pointer;
+
+}
+select[id="size"]
+{
+ width:70px;
+ height:30px;
+}
+select[id="police"]
+{
+    width:100px;
+    height:30px; 
+}
+#msg
+{
+    color: indigo;
+    font:30px/40px helvetica,arial;
+    margin-left: 600px;
+
+}
+textarea
+{
+    margin-left: 460px;
+}
+.imageparagraph1
+{
+    margin: 0px;
+    background-image: url('../res/demoday.jpg');
+    width:1348px;
+    height: 800px;
+    font-size: 200px;
+    text-align: center;
+    color: rgba(252, 50, 0, 0.473);
+
+}
+fieldset
+{
+    text-align: center;
+    font:30px/40px helvetica,arial;
+}
+input[name="Adresse e-mail"] , input[name="password"]
+{
+    width: 400px;
+    height: 30px;
+}
+input[ type="submit"]
+{
+    cursor: pointer;
+    margin-left: 700px;
+    width: 100px;
+    height:40px;
+    background: linear-gradient(to bottom , red,black );
+    color: lavender;
+    padding: 10px;
+    border:none
+}
+.link4
+{
+    position: absolute;
+    top:1070px;
+    bottom: 0px;
+    right:70px;
+    color: lavender;
+    text-decoration: none;
+    font-size: initial;
+
+}
+                                       /*  style for image in courses.html */
+                                                     /*parti one*/
+.courses1 {
+    width: 360px;
+    height: 250px;
+    margin-left: 50px;
+    display: inline-block;
+    background-image: url(../res/go.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.btnCourses1,.btnCourses2,.btnCourses3,.btnCourses4,.btnCourses5,.btnCourses6,.btnCourses7,.btnCourses8,.btnCourses9
+ {
+    margin-top:120px;
+    margin-left: 80px;
+    display: none ; 
+    cursor: pointer;
+}
+.courses1:hover{
+    opacity:0.5; 
+}
+.courses2{
+    width: 360px;
+    height:250px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomy.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses2:hover{
+    opacity:0.5; 
+}
+.courses3{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomyc.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses3:hover{
+    opacity:0.5; 
+}
+                                                               /*parti two*/ 
+.courses4{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomycode.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses4:hover{
+    opacity:0.5; 
+}
+.courses5{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/tunis.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses5:hover{
+    opacity:0.5; 
+}
+.courses6{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomycod.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses6:hover{
+    opacity:0.5; 
+}
+                                                               /*parti three*/ 
+.courses7{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/gomyco.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses7:hover{
+    opacity:0.5; 
+}
+.courses8{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/demoday.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses8:hover{
+    opacity:0.5; 
+}
+.courses9{
+    width: 360px;
+    height:315px;
+    margin-left:50px;
+    display: inline-block;
+    background-image: url(../res/IA.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+.courses9:hover{
+    opacity:0.5; 
+}
